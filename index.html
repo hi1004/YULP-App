@@ -1,0 +1,672 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <title>YULIP,립스틱을 선택하는 새로운 기준</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <link href="css/slick.css" rel="stylesheet" type="text/css">
+    <link href="css/jarallax.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="https://kit.fontawesome.com/d10dfc30d7.js" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+
+
+    <!--slick-->
+    <script type="text/javascript">
+        $(document).ready(function() {
+            console.clear();
+            $('.slider').slick({
+                slide: '.slide', //슬라이드 되어야 할 태그 ex) div, li 
+                infinite: true, //무한 반복 옵션	 
+                slidesToShow: 1, // 한 화면에 보여질 컨텐츠 개수
+                slidesToScroll: 1, //스크롤 한번에 움직일 컨텐츠 개수
+                speed: 1000, // 다음 버튼 누르고 다음 화면 뜨는데까지 걸리는 시간(ms)
+                arrows: false, // 옆으로 이동하는 화살표 표시 여부
+                dots: true, // 스크롤바 아래 점으로 페이지네이션 여부
+                autoplay: true, // 자동 스크롤 사용 여부
+                autoplaySpeed: 6000, // 자동 스크롤 시 다음으로 넘어가는데 걸리는 시간 (ms)
+                pauseOnHover: false, // 슬라이드 이동	시 마우스 호버하면 슬라이더 멈추게 설정
+                vertical: false, // 세로 방향 슬라이드 옵션
+                dotsClass: "slick-dots", //아래 나오는 페이지네이션(점) css class 지정
+                draggable: true,
+                fade: true,
+                customPaging: function(slider, i) {
+                    return '<button class="tab">' + $(slider.$slides[i]).attr('title') + '</button>';
+                },
+            });
+            $(".slick-slider").on('afterChange', function() {
+                $(".pro-bar").addClass('pro-ani');
+            });
+            $(".slick-slider").on('beforeChange', function() {
+                $(".pro-bar").removeClass('pro-ani');
+            });
+        });
+
+    </script>
+</head>
+
+
+<body>
+    <section id="loading">
+        <video src="video/smoke.mp4" autoplay muted></video>
+        <h1>
+            <span data-text="Y">Y</span>
+            <span data-text="U">U</span>
+            <span data-text="L">L</span>
+            <span data-text="I">I</span>
+            <span data-text="P">P</span>
+        </h1>
+        <div class="go_hp">
+            <a href="#">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                홈페이지로 이동
+            </a>
+        </div>
+        <div class="set">
+            <div><img src="img/loding-item-1.png" alt=""></div>
+            <div><img src="img/sec1/slid_move1_2.png"></div>
+            <div><img src="img/loding-item-2.png" alt=""></div>
+            <div><img src="img/loding-item-1.png" alt=""></div>
+            <div><img src="img/sec1/slid_move1_2.png"></div>
+            <div><img src="img/loding-item-2.png" alt=""></div>
+        </div>
+        <div class="set set2">
+            <div><img src="img/loding-item-1.png" alt=""></div>
+            <div><img src="img/sec1/slid_move1_2.png"></div>
+            <div><img src="img/loding-item-2.png" alt=""></div>
+            <div><img src="img/loding-item-1.png" alt=""></div>
+            <div><img src="img/sec1/slid_move1_2.png"></div>
+            <div><img src="img/loding-item-2.png" alt=""></div>
+        </div>
+        <div class="set set3">
+            <div><img src="img/loding-item-1.png" alt=""></div>
+            <div><img src="img/sec1/slid_move1_2.png"></div>
+            <div><img src="img/loding-item-2.png" alt=""></div>
+            <div><img src="img/loding-item-1.png" alt=""></div>
+            <div><img src="img/sec1/slid_move1_2.png"></div>
+            <div><img src="img/loding-item-2.png" alt=""></div>
+        </div>
+    </section>
+    <div id="wrap">
+        <header>
+            <a href="#" id="logo">YULIP</a>
+            <div class="fullpageMenu" id="nav">
+                <div class="banner">
+                    <img src="img/woman-751236_1920.jpg" alt="">
+                </div>
+                <div class="nav">
+                    <ul>
+                        <li><a href="#" data-text="SHOP">SHOP</a></li>
+                        <li><a href="#" data-text="ABOUT">ABOUT</a></li>
+                        <li><a href="#" data-text="BLOG">BLOG</a></li>
+                        <li><a href="#" data-text="EVENT">EVENT</a></li>
+                        <li><a href="#" data-text="#YULIPLOVE">#YULIPLOVE</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="ham_btn">
+                <span></span>
+            </div>
+        </header>
+        <section id="section_1">
+            <div id="parallax">
+                <div class="slider">
+                    <div class="slide" title="Nutty Milk">
+                        <img src="img/sec1/logo_bg_1.png" alt="" class="logo_bg">
+                        <img src="img/sec1/sec1_rip_1.png" alt="" class="layer sec1_rip" data-speed="-5">
+
+                        <div class="sec1_title">Nutty Milk</div>
+
+                        <img src="img/sec1/slid_move1_1.png" alt="" class="layer" data-speed="-6">
+                        <img src="img/sec1/slid_move1_2.png" alt="" class="layer" data-speed="8">
+                        <img src="img/sec1/slid_move1_3.png" alt="" class="layer" data-speed="3">
+                        <img src="img/sec1/slid_move1_4.png" alt="" class="layer" data-speed="5">
+
+                        <div class="sec1_btn">
+                            <a href="#">SHOP NOW</a>
+                        </div>
+                    </div>
+                    <div class="slide" title="Ultra-Hydrating">
+                        <img src="img/sec1/logo_bg_2.png" alt="" class="logo_bg">
+                        <img src="img/sec1/sec1_rip_2.png" alt="" class="layer sec1_rip" data-speed="-5">
+                        <div class="sec1_title">Ultra-Hydrating</div>
+
+                        <img src="img/sec1/slid_move2_1.png" alt="" class="layer" data-speed="-6">
+                        <img src="img/sec1/slid_move2_2.png" alt="" class="layer" data-speed="2">
+                        <img src="img/sec1/slid_move2_3.png" alt="" class="layer" data-speed="8">
+                        <img src="img/sec1/slid_move2_4.png" alt="" class="layer" data-speed="5">
+                        <div class="sec1_btn">
+                            <a href="#">SHOP NOW</a>
+                        </div>
+                    </div>
+                    <div class="slide" title="Vegan Society">
+                        <img src="img/sec1/logo_bg_3.png" alt="" class="logo_bg">
+                        <img src="img/sec1/sec1_rip_3.png" alt="" class="layer sec1_rip" data-speed="-5">
+                        <div class="sec1_title">Vegan Society</div>
+
+                        <img src="img/sec1/slid_move3_1.png" alt="" class="layer" data-speed="-1">
+                        <img src="img/sec1/slid_move3_2.png" alt="" class="layer" data-speed="10">
+                        <img src="img/sec1/slid_move3_3.png" alt="" class="layer" data-speed="8">
+                        <img src="img/sec1/slid_move3_4.png" alt="" class="layer" data-speed="5">
+                        <div class="sec1_btn">
+                            <a href="#">SHOP NOW</a>
+                        </div>
+                    </div>
+                    <div class="slide" title="Clean Beauty">
+                        <img src="img/sec1/logo_bg_4.png" alt="" class="logo_bg">
+                        <img src="img/sec1/sec1_rip_4.png" alt="" class="layer sec1_rip" data-speed="-5">
+                        <div class="sec1_title">Clean Beauty</div>
+
+                        <img src="img/sec1/slid_move4_1.png" alt="" class="layer" data-speed="4">
+                        <img src="img/sec1/slid_move4_2.png" alt="" class="layer" data-speed="10">
+                        <img src="img/sec1/slid_move4_3.png" alt="" class="layer" data-speed="8">
+
+                        <div class="sec1_btn">
+                            <a href="#">SHOP NOW</a>
+                        </div>
+                    </div>
+                    <div class="slide" title="Review Event">
+                        <img src="img/sec1/sec1_rip_5.png" alt="" class="layer sec1_rip" data-speed="-5">
+                        <div class="sec1_title">Review Event</div>
+
+                        <img src="img/sec1/slid_move5_2.png" alt="" class="layer" data-speed="4">
+                        <img src="img/sec1/slid_move5_3.png" alt="" class="layer" data-speed="10">
+                        <img src="img/sec1/slid_move5_4.png" alt="" class="layer" data-speed="8">
+                        <img src="img/sec1/slid_move5_6.png" alt="" class="layer" data-speed="-5">
+                        <div class="sec1_btn">
+                            <a href="#">SHOP NOW</a>
+                        </div>
+                    </div>
+                    <div class="nav-icon">
+                <ul class="sci">
+                    <li><a href="#"><i class="fas fa-user"></i></a></li>
+                    <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                    <li><a href="#"><i class="fas fa-search"></i></a></li>
+                </ul>
+            </div>
+                </div>
+
+                <div class="pro-bar pro-ani"></div>
+                <div class="center">
+                    <div class="down"></div>
+                </div>
+            </div>
+            
+        </section>
+        <section id="section_2">
+            <div class="blur"></div>
+            <div class="glowing_wrap">
+                <div class="glowing">
+                    <span style="--i:1;"></span>
+                    <span style="--i:2;"></span>
+                    <span style="--i:3;"></span>
+                    <span style="--i:4;"></span>
+                </div>
+                <div class="glowing">
+                    <span style="--i:1;"></span>
+                    <span style="--i:2;"></span>
+                    <span style="--i:3;"></span>
+                    <span style="--i:4;"></span>
+                </div>
+                <div class="glowing">
+                    <span style="--i:1;"></span>
+                    <span style="--i:2;"></span>
+                    <span style="--i:3;"></span>
+                    <span style="--i:4;"></span>
+                </div>
+                <div class="glowing">
+                    <span style="--i:1;"></span>
+                    <span style="--i:2;"></span>
+                    <span style="--i:3;"></span>
+                    <span style="--i:4;"></span>
+                </div>
+                <div class="glowing">
+                    <span style="--i:1;"></span>
+                    <span style="--i:2;"></span>
+                    <span style="--i:3;"></span>
+                    <span style="--i:4;"></span>
+                </div>
+            </div>
+            <div class="container">
+                <div class="title">
+                    <h1>
+                        <span>B</span>
+                        <span>e</span>
+                        <span>s</span>
+                        <span>t&nbsp;</span>
+                        <span>I</span>
+                        <span>t</span>
+                        <span>e</span>
+                        <span>m</span>
+                    </h1>
+                    <p>고객님들의 반응이 가장 좋은 상품 입니다</p>
+                </div>
+                <div class="con_wrap">
+                    <div class="con">
+                        <div class="card">
+                            <div class="imgBx">
+                                <img src="img/sec2-img-1.png" alt="">
+                            </div>
+                            <div class="contentBx">
+                                <h3>립올마이티 분홍</h3>
+                                <h2 class="price">24,<small>000</small></h2>
+                                <a href="#" class="buy">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="con">
+                        <div class="card">
+                            <div class="imgBx">
+                                <img src="img/sec2-img-2.png" alt="">
+                            </div>
+                            <div class="contentBx">
+                                <h3>립올마이티 얼티밋</h3>
+                                <h2 class="price">24,<small>000</small></h2>
+                                <a href="#" class="buy">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="con">
+                        <div class="card">
+                            <div class="imgBx">
+                                <img src="img/sec2-img-3.png" alt="">
+                            </div>
+                            <div class="contentBx">
+                                <h3>립올마이티 너티밀크</h3>
+                                <h2 class="price">24,<small>000</small></h2>
+                                <a href="#" class="buy">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="con">
+                        <div class="card">
+                            <div class="imgBx">
+                                <img src="img/sec2-img-4.png" alt="">
+                            </div>
+                            <div class="contentBx">
+                                <h3>웬즈데이 피버</h3>
+                                <h2 class="price">24,<small>000</small></h2>
+                                <a href="#" class="buy">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="section_3">
+
+            <div class="banner">
+                <div class="blur"></div>
+                <video src="video/YULIP.mp4" muted autoplay loop type="mp4"></video>
+                <div class="textBx">
+                    <h2>Your Beauty is eternal</h2>
+                    <p>안전한 성분으로 외면의 아름다움
+                        뿐 아니라, 피부 속 깊은 내면까지
+                        아름다울 수 있도록, 율립<br /><br />
+                        <span>"아름다워지기 위해 하는 선택이 우리를 아프게 하지 않도록,
+                            율립은 유해하지 않은 건강한 성분으로
+                            메이크업의 클린 역사를 시작합니다."</span>
+                    </p>
+                    <a href="#">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        Read More
+                    </a>
+                </div>
+                <div class="videoBx">
+                    <video src="video/YULIP.mp4" muted autoplay loop type="mp4"></video>
+                </div>
+                <ul class="sci">
+                    <li><a href="#"><img src="img/facebook.png" alt=""></a></li>
+                    <li><a href="#"><img src="img/twitter.png" alt=""></a></li>
+                    <li><a href="#"><img src="img/instagram.png" alt=""></a></li>
+                </ul>
+            </div>
+        </section>
+        <section id="section_4">
+
+            <div class="parallax_section">
+                <div class="box">
+                    <h2 data-jarallax-element="0 -200">What's new</h2>
+                    <div class="container">
+                        <div class="img_box jarallax">
+                            <img src="img/sec4_1.jpg" alt="" class="jarallax-img">
+                        </div>
+                        <div class="content" data-jarallax-element="-200 0">
+                            <p>
+                                <span>가을의 고소함을 담은 비건 립밤, 너티밀크 Nutty Milk</span>
+                                <br /><br />
+                                ✔ 타르 / 합성색소 / 유해성분 ZERO<br />
+                                ✔ 파라벤, 계면활성제 무첨가<br />
+                                ✔ 100% 천연유래성분 &amp; 100% 비건포뮬라<br />
+                                ✔ 유기농 인증(USDA, 영국토양협회)성분 함유<br />
+                                ✔ 크루얼티프리(PETA 인증)<br />
+                                ✔ Non Nano, 무향
+                            </p>
+                            <div class="sec4_btn">
+                                <a href="#">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="parallax_section">
+                <div class="box">
+                    <h2 data-jarallax-element="0 200">Perfect lipstick <br class="mo_br"/>for everyday<br class="mo_br"/> life</h2>
+                    <div class="container">
+                        <div class="img_box jarallax">
+                            <img src="img/sec4_2.jpg" alt="" class="jarallax-img">
+                        </div>
+                        <div class="content" data-jarallax-element="-200 0">
+                            <p>
+                                <span>100% 천연유래성분, 오가닉, 무향, 크루얼티프리까지</span>
+
+
+                            </p>
+                            <div class="sec4_btn">
+                                <a href="#">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="parallax_section">
+                <div class="box">
+                    <h2 data-jarallax-element="0 -200">ABSOLUTELY 'NO'</h2>
+                    <div class="container">
+                        <div class="img_box jarallax">
+                            <img src="img/sec4_3.jpg" alt="" class="jarallax-img">
+                        </div>
+                        <div class="content" data-jarallax-element="-200 0">
+                            <p>
+                                <span>타르계열 색소, 나노성분, 화학성분, 동물실험 원료, 향 GMO 원료, 글루텐 함유 성분 등은 가장 기본적으로 제외합니다.</span>
+                            </p>
+                            <div class="sec4_btn">
+                                <a href="#">Read More</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="parallax_section">
+                <div class="box">
+                    <h2 data-jarallax-element="0 200">Why YULIP</h2>
+                    <div class="container">
+                        <div class="img_box jarallax">
+                            <img src="img/sec4_4.jpg" alt="" class="jarallax-img">
+                        </div>
+                        <div class="content" data-jarallax-element="-200 0">
+                            <p>
+                                <span>천연유래성분과 유기농 성분 함유</span>
+                                <br /><br />
+                                ✔ 신뢰할 수 있는 인증 유기농 원료 사용<br />
+                                ✔ 동물실험 원료 &amp; 금지 <br />
+                                ✔ 지속가능한 원료 사용<br />
+                                ✔ 재생용지 패키지 활용<br />
+                                ✔ 전체 매출의 1%를 환경보호 등에 기부<br />
+                            </p>
+                            <div class="sec4_btn">
+                                <a href="#">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="parallax_section">
+                <div class="box">
+                    <div class="container">
+                        <div class="img_box jarallax">
+                            <img src="img/banner_bottom.jpeg" alt="" >
+                        </div>
+                    </div>
+                </div>
+                <div class="panel_title">Characteristic</div>
+            </div>
+
+        </section>
+        <section id="section_5">
+            <div id="pinContainer">
+                <section class="panel panel1">
+                    <div class="container">
+                        <div class="box">
+                            <div class="thumb">
+                                <img src="img/sec5_item_1.jpg" alt="">
+                            </div>
+                            <div class="details">
+                                <div class="content">
+                                    <i class="fas fa-leaf"></i>
+                                    <h3>자연</h3>
+                                    <a href="#">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="thumb">
+                                <img src="img/sec5_item_2.jpg" alt="">
+                            </div>
+                            <div class="details">
+                                <div class="content">
+                                    <i class="fas fa-tint"></i>
+                                    <h3>수분</h3>
+                                    <a href="#">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="thumb">
+                                <img src="img/sec5_item_3.jpg" alt="">
+                            </div>
+                            <div class="details">
+                                <div class="content">
+                                    <i class="fas fa-palette"></i>
+                                    <h3>색상</h3>
+                                    <a href="#">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="thumb">
+                                <img src="img/sec5_item_4.jpg" alt="">
+                            </div>
+                            <div class="details">
+                                <div class="content">
+                                    <i class="fab fa-leanpub"></i>
+                                    <h3>클린</h3>
+                                    <a href="#">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="panel panel2">
+                    <div class="panel_title">MOVEMENT</div>
+                    <div class="container">
+                        <div class="card">
+                            <input type="checkbox" name="">
+                            <div class="toggle">+</div>
+                            <div class="imgBx">
+                                <img src="img/sec5_item_5%20.jpg" alt="">
+                                <h2>비주얼에만 현혹되지 않는다.</h2>
+                            </div>
+                            <div class="details">
+                                <h2>비주얼에만 현혹되지 않는다.</h2>
+                                <p>아름다운 패키지, 화려한 컬러만 보고
+                                    <br />
+                                    내 몸에 영원히 남게 될 성분을 간과하지 않는다.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <input type="checkbox" name="">
+                            <div class="toggle">+</div>
+                            <div class="imgBx">
+                                <img src="img/sec5_item_6.jpg" alt="">
+                                <h2>인공보단 천연의 아름다움을 추구한다.</h2>
+                            </div>
+                            <div class="details">
+                                <h2>인공보단 천연의 아름다움을 추구한다.</h2>
+                                <p>과도한 화학작용이 들어가는 화학, 인공성분이<br />
+                                    아니어도 천연이 주는 아름다움을 발견할 수 있다.</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <input type="checkbox" name="">
+                            <div class="toggle">+</div>
+                            <div class="imgBx">
+                                <img src="img/sec5_item_7.jpg" alt="">
+                                <h2>내게 불편함을 주는 뷰티도 뷰티일까?</h2>
+                            </div>
+                            <div class="details">
+                                <h2>내게 불편함을 주는 뷰티도 뷰티일까?</h2>
+                                <p>바를수록 건조해지는, 쓸수록 트러블이 나는<br />
+                                    제품이 아닌, 어디에서도 편안한 뷰티를 찾는다.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <div class="sec aboutus">
+                    <h2>About Us</h2>
+                    <p>아름다워지기 위해 바르는 화장품으로 우리 피부는 물론, 몸까지 병들게 하는 화장품 성분들
+                        편리함, 가격, 성능 등을 이유로 널리 쓰이는 이 성분들을 율립은 과감히 보이콧하기로 했습니다.<br /><br />
+                        '입이 즐거워지는 제품' '나와 나의 아이에게 건강한 제품'을 만들자는 의미를 담았습니다.
+                    </p>
+
+                    <ul class="sci">
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+                <div class="sec quickLinks">
+                    <h2>Quick Links</h2>
+                    <ul>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">CS CENTER</a></li>
+                        <li><a href="#">BANK INFO</a></li>
+                        <li><a href="#">DELIVERY</a></li>
+                        <li><a href="#">SERVICE</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
+                </div>
+                <div class="sec contact">
+                    <h2>Contact Info</h2>
+                    <ul class="info">
+                        <li>
+                            <span><i class="fas fa-map-marker-alt"></i></span>
+                            <span>주식회사 율립 제주특별자치도 제주시 수목원길 39-1 1동(연동)</span>
+                        </li>
+                        <li>
+                            <span><i class="fas fa-phone-alt"></i></span>
+                            <p><a href="tel:1234568900"> +82 0507-1326-6083</a><br />
+                                <span>10:00~17:00 (Lunch Time 13:00~14:30)<br />
+                                    토, 일요일 및 공휴일 휴무</span>
+                            </p>
+
+                        </li>
+                        <li>
+                            <span><i class="far fa-envelope"></i></span>
+                            <p><a href="mailto:contact@yulipbeauty.com">contact@yulipbeauty.com</a></p>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </footer>
+        
+        <div class="copyrightText">
+            <p>
+                copyright (c) yulipbeauty.co.kr all rights reserved.
+            </p>
+        </div>
+    </div>
+
+
+
+    <!--loading-->
+    <script type="text/javascript">
+        /* $(window).on('load', function() {
+            setTimeout(removeLoader, 5300);
+        });*/
+        $(document).ready(function() {
+            $('.slider').slick('slickPause')
+            $('.go_hp').click(function() {
+                removeLoader()
+
+                $('.slider').slick('slickPlay')
+
+                $('body').css({
+                    overflow: 'visible'
+                });
+                $('#ham_btn').css({
+                     visibility: 'visible'
+                });
+            });
+
+            function removeLoader() {
+                $("#loading").fadeOut(1000, function() {
+                    $("#loading").hide();
+                });
+            }
+
+        });
+
+    </script>
+    <!--parallax-->
+    <script type="text/javascript">
+        var headerBg = document.getElementById('parallax')
+        window.addEventListener('scroll', function() {
+            headerBg.style.opacity = 1 - +window.pageYOffset / 800 + ''
+            headerBg.style.top = +window.pageYOffset + 'px'
+            headerBg.style.backgroundPosition = - +window.pageYOffset / 2 + 'px'
+        })
+
+    </script>
+    <script type="text/javascript">
+        document.addEventListener("mousemove", parallax);
+
+        function parallax(e) {
+            this.querySelectorAll('.layer').forEach(layer => {
+                var speed = layer.getAttribute('data-speed')
+
+                var x = (window.innerWidth - e.pageX * speed) / 300
+                var y = (window.innerHeight - e.pageY * speed) / 300
+
+                layer.style.transform = `translateX(${x}px) translateY(${y}px)`
+            })
+        }
+
+    </script>
+    <script src="js/jarallax.js"></script>
+    <script src="js/jarallax-element.js"></script>
+    <script type="text/javascript">
+        jarallax(document.querySelectorAll('.jarallax'), {
+            speed: 0.5
+        });
+
+    </script>
+    <!--scrollMagic-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
+</body>
+
+</html>
