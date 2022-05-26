@@ -1,3 +1,3 @@
 # YULP
 
-[DEMO](https://project04-yulp.netlify.app)
+[DEMO](https://lotte.vercel.app/)
