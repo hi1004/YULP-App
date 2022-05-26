@@ -1,3 +1,3 @@
 # YULP
 
-[DEMO](https://lotte.vercel.app/)
+[DEMO](https://yulp-app.vercel.app/)
