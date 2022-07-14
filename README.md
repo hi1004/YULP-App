@@ -4,6 +4,8 @@
 >
 > [DEMO](https://bit.ly/3PdYaIR)
 
+![image](https://raw.githubusercontent.com/hi1004/YULP-App/main/img/readme.jpg)
+
 </br>
 
 ## 1. 製作期間 ＆ 参加人数
@@ -37,9 +39,19 @@
 	<summary><b>コードで見るコア機能</b></summary>
   
   ### 3.1. スライド
-  - **Slickライブラリー** :pushpin: [コード確認](https://github.com/hi1004/YULP-App/blob/main/index.html#L21-L50)
-  ### 3.1. Loading
-  - **Loading** :pushpin: [コード確認](https://github.com/hi1004/YULP-App/blob/main/index.html#L21-L50)
+  - **Slickライブラリー** :pushpin: [コード確認](https://github.com/hi1004/YULP-App/blob/main/index.html#L25-L59)
+
+### 3.2. Loading
+
+- **Loading ページ** :pushpin: [コード確認](https://github.com/hi1004/YULP-App/blob/main/index.html#L767-L793)
+
+### 3.3. Parallax
+
+- **Parallax ライブラリー** :pushpin: [コード確認](https://github.com/hi1004/YULP-App/blob/main/index.html#L794-L823)
+
+### 3.4. ScrollMagic
+
+- **ScrollMagic ライブラリー** :pushpin: [コード確認](https://github.com/hi1004/YULP-App/blob/main/js/main.js#L22-L48)
 </details>
 <br>
 
