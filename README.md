@@ -33,7 +33,7 @@
 - Slick ライブラリーでスライド実装。
 - Loading ページ実装。
 - Parallax ライブラリーを使い、Parallax 効果実装。
-- ScrollMagic ライブラリーを使い、scroll の時、画面転換評価実装。
+- ScrollMagic ライブラリーを使い、scroll の時、画面転換効果実装。
 
 <details>
 	<summary><b>コードで見るコア機能</b></summary>
