@@ -53,6 +53,11 @@
 
 - **ScrollMagic ライブラリー** :pushpin: [コード確認](https://github.com/hi1004/YULP-App/blob/main/js/main.js#L22-L48)
 </details>
+
 <br>
 
 ## 4. 成果 & 感じたこと
+
+- ScrollMagic ライブラリーについて理解できました。
+- Parallax ライブラリーについて勉強になりました。
+- UI/UX に力を入れました。
